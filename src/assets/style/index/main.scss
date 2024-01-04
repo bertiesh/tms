@@ -1,0 +1,62 @@
+.el-container,.home{
+    height: 100%;
+  }
+  .el-header{
+    border-bottom:1px solid #F2F2F2;
+  }
+  .el-aside {
+    overflow: hidden;
+    background-color: #333333;
+    transition: width 100ms;
+  }
+  
+  .el-main {
+    background-color: #F2F2F2;
+    padding: 10px;
+    position: relative;
+    .mainbox{
+      height: 100%;
+      .kefubox{
+        width: 70px;
+        height: 60px;
+        padding: 7px 0;
+        border-radius: 5px;
+        background: white;
+        position: fixed;
+        box-shadow: 0 0 4px 1px rgb(206, 206, 206);
+        top: 300px;
+        right: 0;
+        color: #409EFF;
+        text-align: center;
+        cursor: pointer;
+        z-index: 9999;
+        .icon-kefu{
+          font-size: 40px;
+        }
+      }
+      .chat{
+        background: white;
+        position: fixed;
+        top: 10px;
+        right: 0;
+        border-radius: 5px;
+        z-index: 9999;
+      }
+    }
+    
+  }
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(116, 116, 116, 0.473);
+border-style: dashed;
+border-color: transparent;
+border-width: 2px;
+background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(63, 63, 63, 0.7)
+}

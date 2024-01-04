@@ -1,0 +1,67 @@
+
+::v-deep.el-form {
+ 
+  width: 400px;
+  height: 470px;
+  background: rgba(255, 255, 255, 0.623);
+  border-radius: 5px;
+  margin: auto;
+  padding-top: 30px;
+  .title-container {
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px auto;
+    img {
+      float: left;
+    }
+  }
+ .el-form-item {
+    width: 250px;
+    margin: 35px auto;
+    .login-code{
+      height: 50px;
+      padding-left: 10px;
+      margin-top: -14px;
+    }
+    .login-code-img{
+      height: 50px;
+      width: 95px;
+      background-color: aliceblue;
+      cursor: pointer;
+    }
+  } 
+  .el-input__inner {
+    border-radius: 0px;
+    border: none;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 10px;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.589);
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 35px;
+  }
+  .el-input__inner::placeholder{
+    color: rgb(133, 133, 133);
+  }
+  .el-icon-user-solid,
+  .el-icon-key {
+    color: rgb(70, 68, 68);
+    font-size: 20px;
+  }
+ .el-icon-view,.el-input__icon{
+    color: rgb(70, 68, 68);
+  }
+  .login-button {
+    width: 200px;
+    margin: 30px auto;
+  }
+ .el-button {
+    width: 250px;
+    margin-left: -25px;
+  }
+  .iconfont{
+    color: rgb(87, 87, 87);
+  }
+}
